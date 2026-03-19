@@ -111,3 +111,10 @@ print("Nós expandidos BFS:", nos_bfs)
 
 print("\nCaminho A*:", caminho_a)
 print("Nós expandidos A*:", nos_a)
+
+
+# Caminho BFS: [(0, 0), (0, 1), (0, 2), (1, 2), (2, 2), (2, 3), (2, 4), (3, 4), (3, 5), (4, 5), (4, 6)]
+Nós expandidos BFS: 23
+
+# Caminho A*: [(0, 0), (0, 1), (0, 2), (1, 2), (2, 2), (2, 3), (2, 4), (3, 4), (3, 5), (3, 6), (4, 6)]
+Nós expandidos A*: 19
