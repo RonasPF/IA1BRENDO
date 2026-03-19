@@ -105,12 +105,7 @@ def a_estrela(lab):
     caminho.reverse()
 
     return caminho, nos_expandidos
-
-
-# EXECUÇÃO
-caminho_bfs, nos_bfs = bfs(labirinto)
-caminho_a, nos_a = a_estrela(labirinto)
-
+    
 print("Caminho BFS:", caminho_bfs)
 print("Nós expandidos BFS:", nos_bfs)
 
